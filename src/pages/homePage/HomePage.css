@@ -1,0 +1,400 @@
+.HomePage-cont {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.homeContent {
+  width: 100%;
+  height: 85vh;
+  background: url(../../img/NetflixBG.jpg);
+  background-size: 125%;
+  background-position: 60%;
+  background-position-y: 75%;
+  background-position-x: 50%;
+  border-bottom: 8px solid #232323;
+}
+
+.homegradient {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homegradient h1 {
+  font-size: 2.9rem;
+}
+
+.homegradient h2 {
+  font-size: 1.5rem;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+.homegradient p {
+  margin-top: 17px;
+  font-size: 1.2rem;
+}
+.user-intraction {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  gap: 7px;
+  margin-top: 17px;
+  justify-content: center;
+}
+
+.input {
+  width: 340px;
+  height: 50px;
+  background-color: rgba(12, 12, 12, 0.432);
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+.GSBTN {
+  padding: 0px 25px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  gap: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.GSBTN:hover {
+  background-color: #99080f;
+}
+
+.GSBTN h1 {
+  font-size: 22px;
+  color: whitesmoke;
+}
+.arrow {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+/* ==================================== PART 2 ===================================================== */
+
+.Part-2 {
+  width: 100%;
+  height: fit-content;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #232323;
+}
+.part2-inner {
+  width: 100%;
+  max-width: 1000px;
+  height: fit-content;
+  /* background: #afa5a5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner-1 h1 {
+  font-size: 2.5rem;
+}
+
+.inner-1 p {
+  font-size: 1.2rem;
+  margin-top: 7px;
+}
+
+.inner-2 {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  width: 100%;
+}
+
+.tvimg {
+  width: 100%;
+  z-index: 998;
+  position: absolute;
+  scale: 1.1;
+}
+
+/* ==================================== PART 3 ===================================================== */
+
+.Part-3 {
+  width: 100%;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #232323;
+}
+
+.innerDiv3 {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d1 {
+  width: 50%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.d1 img {
+  width: 100%;
+}
+
+.d2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d2 h1 {
+  font-size: 2.5rem;
+}
+
+.d2 p {
+  font-size: 1.4rem;
+  margin-top: 7px;
+}
+
+/* ==================================== BoxCont ===================================================== */
+
+.boxCont {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 8px solid #232323;
+}
+
+.text-title {
+  font-size: 3rem;
+  margin-top: 3vw;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.boxCont p {
+  font-size: 1rem;
+  margin-top: 27px;
+}
+
+.oldbtn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 17px;
+  margin-bottom: 27px;
+}
+
+/* ====================== FOOTER ========================= */
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 8px solid #232323;
+  padding: 3vw 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  opacity: 0.5;
+}
+.footer p {
+  font-size: 14px;
+}
+
+.lastdiv {
+  width: 100%;
+  height: fit-content;
+}
+.footer > div {
+  width: fit-content;
+}
+
+@media (max-width: 1000px) {
+  .homegradient {
+    padding: 0px 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .homegradient > h1 {
+    margin-top: 100px;
+  }
+  .homegradient h1 {
+    font-size: 5vw;
+  }
+  .homegradient h2 {
+    font-size: 22px;
+  }
+  .homegradient p {
+    font-size: 17px;
+  }
+  .homeContent {
+    height: 62vh;
+  }
+  .GSBTN h1 {
+    font-size: 22px;
+  }
+  .part2-inner {
+    padding: 0px 3vw;
+  }
+  .boxCont {
+    padding: 0px 3vw;
+  }
+  .boxCont > h1 {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+  }
+  .boxCont > p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 839px) {
+  .part2 {
+    overflow: hidden;
+  }
+  .part2-inner {
+    flex-direction: column-reverse;
+    overflow: hidden;
+  }
+  .inner-1 {
+    width: 100%;
+    padding: 0px 3vw;
+  }
+  .inner-1 > h1 {
+    font-size: 5vw;
+    margin-top: 5vw;
+    text-align: center;
+  }
+  .inner-1 > p {
+    text-align: center;
+    font-size: 17px;
+  }
+  .inner-2 {
+    width: 100%;
+    overflow: hidden;
+  }
+  .inner-2 > video {
+    width: 720px;
+  }
+  .innerDiv3 {
+    flex-direction: column;
+  }
+  .d1 {
+    width: 70%;
+  }
+
+  .d2 {
+    width: 100%;
+    padding: 0px 3vw;
+    text-align: center;
+  }
+  .d2 > h1 {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .d2 > p {
+    font-size: 17px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer > div {
+    width: 100%;
+    padding: 0px 4vw;
+    text-align: center;
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 524px) {
+  .homegradient {
+    padding: 0px 4vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .homegradient h1 {
+    font-size: 30px;
+  }
+  .homegradient h2 {
+    font-size: 17px;
+  }
+  .homegradient p {
+    font-size: 14px;
+  }
+  .GSBTN h1 {
+    font-size: 17px;
+  }
+  .inner-1 > h1 {
+    font-size: 30px;
+    margin-top: 5vw;
+    text-align: center;
+  }
+  .inner-1 > p {
+    text-align: center;
+    font-size: 14px;
+  }
+  .d2 > h1 {
+    font-size: 30px;
+    margin-top: 5vw;
+  }
+  .d2 > p {
+    font-size: 14px;
+  }
+  .boxCont > h1 {
+    font-size: 30px;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+  }
+  .boxCont {
+    padding: 0px 5vw;
+  }
+}

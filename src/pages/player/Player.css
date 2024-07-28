@@ -1,0 +1,28 @@
+.Player-cont{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.back-i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 997;
+}
+.ifrm{
+    width: 95%;
+    height: 90%;
+}
+.player-info{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

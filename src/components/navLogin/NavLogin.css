@@ -1,0 +1,83 @@
+.NavLogin-Cont{
+    width: 100%;
+    height: fit-content;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    z-index: 999;
+}
+
+.nav-items-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.Nav-Logo-cont{
+    width: fit-content;
+    height: fit-content;
+}
+.NavLogo{
+    width: 180px;
+}
+
+.Nav-btn-cont{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+}
+.eng-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 10px;
+    border: 0.5px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 4px;
+    
+}
+
+.sign-in-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 17px;
+    background-color: #C11119;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sign-in-btn:hover{
+    background-color: #9e0d14
+}
+
+
+@media (max-width:1000px) {
+    .NavLogo{
+        width: 140px;
+    }
+    .NavLogin-Cont{
+        padding: 0px 3vw;
+    }
+}
+
+@media (max-width:524px) {
+    .eng-btn>p{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
